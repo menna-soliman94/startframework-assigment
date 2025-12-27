@@ -14,11 +14,11 @@ export default function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Navigate to={"/home"} /> },
-        { path: "/home", element: <Home /> },
-        { path: "/about", element: <About /> },
-        { path: "/portfolio", element: <Portfolio /> },
-        { path: "/contact", element: <Contact /> },
-        { path: "*", element: <NotFound /> },
+        { path: "/startframework-assigment/home", element: <Home /> },
+        { path: "/startframework-assigment/about", element: <About /> },
+        { path: "/startframework-assigment/portfolio", element: <Portfolio /> },
+        { path: "/startframework-assigment/contact", element: <Contact /> },
+        { path: "/startframework-assigment/*", element: <NotFound /> },
       ],
     },
   ]);
