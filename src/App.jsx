@@ -1,11 +1,11 @@
 import React from "react";
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router";
-import About from "./components/About/About";
-import Portfolio from "./components/Portfolio/Portfolio";
-import Contact from "./components/Contact/Contact";
-import NotFound from "./components/NotFound/NotFound";
-import Home from "./components/Home/Home";
-import Layout from "./components/Layout/Layout";
+import About from "./components/About/About.jsx";
+import Portfolio from "./components/Portfolio/Portfolio.jsx";
+import Contact from "./components/Contact/Contact.jsx";
+import NotFound from "./components/NotFound/NotFound.jsx";
+import Home from "./components/Home/Home.jsx";
+import Layout from "./components/Layout/Layout.jsx";
 
 export default function App() {
   const router = createBrowserRouter([

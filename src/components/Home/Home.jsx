@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <div className="home text-white py-4">
         <div className="container d-flex flex-column justify-content-center align-items-center">
-          <img className="w-25" src="/src/assets/avataaars.svg" alt="" />
+          <img className="w-25" src="/src/assets/avataaars.svg" alt="Avatar" />
           <h1 className="fw-bold mt-2">START FRAMEWORK</h1>
           <div className="d-flex justify-content-center align-items-center my-3">
             <div className="line bg-white"></div>
