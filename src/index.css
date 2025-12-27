@@ -1,0 +1,82 @@
+body {
+  padding-top: 106px;
+}
+
+:root {
+  --main-color: #1abc9c;
+  --second-color: #2c3e50;
+}
+nav,
+footer {
+  background-color: var(--second-color);
+}
+.navbar-nav .nav-link.active {
+  background-color: var(--main-color);
+  border-radius: 5px;
+}
+.home,
+.about {
+  background-color: var(--main-color);
+}
+.contact,
+.contact i,
+.portfolio,
+.portfolio i {
+  color: var(--second-color);
+}
+.contact .line,
+.portfolio .line {
+  background-color: var(--second-color);
+}
+i {
+  color: #fff;
+}
+
+footer .colorChange {
+  background-color: #1a252f;
+}
+.line {
+  width: 80px;
+  height: 3px;
+}
+.contact button,
+.contact button:hover,
+:not(.btn-check) + .btn:active {
+  background-color: var(--main-color);
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.portfolio .card .layer {
+  background-color: #1abc9ce6;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+.portfolio .card .layer:hover {
+  opacity: 1;
+}
+.portfolio .modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(13, 109, 253, 0.397);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 24px;
+}
+.portfolio .modal-content {
+  background: transparent;
+  max-width: 900px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.portfolio .modal-body img {
+  max-height: 70vh;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
