@@ -13,7 +13,7 @@ export default function App() {
       path: "",
       element: <Layout />,
       children: [
-        { index: true, element: <Navigate to={"/startframework-assigment/home"} /> },
+        { index: true, element: <Navigate to={"/home"} /> },
         { path: "/startframework-assigment/home", element: <Home /> },
         { path: "/startframework-assigment/about", element: <About /> },
         { path: "/startframework-assigment/portfolio", element: <Portfolio /> },
