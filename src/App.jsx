@@ -1,6 +1,5 @@
 import React from "react";
-import { Navigate, RouterProvider } from "react-router";
-import { createHashRouter } from "react-router-dom";
+import { createHashRouter, Navigate, RouterProvider } from "react-router-dom";
 import About from "./components/About/About.jsx";
 import Portfolio from "./components/Portfolio/Portfolio.jsx";
 import Contact from "./components/Contact/Contact.jsx";
